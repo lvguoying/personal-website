@@ -100,6 +100,7 @@ span.menu{
 }
 /*--banner-info--*/
 .banner-info {
+
     background:rgba(23, 20, 20, 0.58);
     margin-top: 4em;
 }
@@ -108,12 +109,6 @@ span.menu{
 }
 .header-right {
     padding: 3em;
-}
-ul.address-text {
-    padding: 0;
-}
-ul.address {
-    padding: 0;
 }
 .header-left img {
     width: 100%;
@@ -138,7 +133,7 @@ ul.address {
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .header-right h1:before {
-       width: 0;
+    width: 0;
     height: 0;
     position: absolute;
     content: '';
