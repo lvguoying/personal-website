@@ -1,0 +1,372 @@
+/*reset*/
+html, body, div, section, article, aside,
+header, hgroup, footer, nav, h1, h2, h3, h4,
+h5, h6,a, blockquote, address, time, span, em,
+strong, img, ol, ul, li, figure, canvas, video,
+th, td, tr,iframe  {
+    margin: 0;
+    padding: 0;
+    border:0;
+    vertical-align:baseline;
+    font: inherit;
+    text-decoration: none;
+    list-style:none;
+}
+a,a:active,a:hover {
+    outline: none;
+}
+
+/*H5 display rule*/
+address, article, aside, canvas, details,
+figcaption, figure, footer, header, hgroup,
+nav, menu, nav, section, summary {
+    display: block;
+}
+/* General Style */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: url(../images/pattern/pattern2.png) repeat;
+    font: 100% Arial,'Signika';
+    line-height: 20px;
+    font-weight:normal;
+    font-style: normal;
+    color: #999;
+}
+#wrapper{
+    margin: 50px auto 30px auto;
+    width: 780px;
+}
+
+header{
+    width: 230px;
+    float: left;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Main navigation */
+#mainNav{
+    margin-left: 6px;
+}
+#mainNav li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 215px;
+    height: 40px;
+    border-right: 5px solid #e3e2e2;
+    float: left;
+    border-radius: 4px;
+    position: relative;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
+    background: linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
+
+}
+
+#mainNav li > a{
+    color: #787878;
+    display: inline-block;
+    padding:11px 10px 10px 142px;
+    background-repeat:no-repeat;
+    font-family:"Signika";
+    font-weight:300;
+    font-size: 17px;
+    width: 65px;
+    height: 21px;
+}
+#mainNav li a.tab-about{
+    background-image: url(../images/about-ico.png);
+    background-position: 14px 7px;
+}
+
+#mainNav li a.tab-project{
+    background-image: url(../images/folio-ico.png);
+    background-position: 14px 7px;
+}
+#mainNav li a.tab-blog{
+    background-image: url(../images/blog-ico.png);
+    background-position: 14px 7px;
+}
+#mainNav li a.tab-contact{
+    background-image: url(../images/contact-ico.png);
+    background-position: 14px 7px;
+}
+#mainNav li.active{
+    border-right: 5px solid #CD5353;
+    background: #fff url(../images/nav-arrow-active.png) no-repeat 102% center;
+}
+
+#mainNav li.active .tab-about{
+    background-image: url(../images/about-ico-active.png);
+    background-position: 14px 7px;
+    color: #CD5353;
+}
+#mainNav li.active .tab-project{
+    background-image: url(../images/folio-ico-active.png);
+    background-position: 14px 7px;
+    color:#CD5353;
+
+}
+
+#mainNav li.active .tab-blog{
+    background-image: url(../images/blog-ico-active.png);
+    background-position: 14px 7px;
+    color:#CD5353;
+
+}
+
+#mainNav li.active .tab-contact{
+    background-image: url(../images/contact-ico-active.png);
+    background-position: 14px 7px;
+    color:#CD5353;
+
+}
+/* End main navigation */
+#img{
+    margin-left: 12px;
+    margin-bottom: 50px;
+    position: relative;
+}
+#img img{
+    border-radius: 4px;
+}
+#img hgroup{
+    background: #CD5353;
+    width: 218px;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    background: rgba(205,83,83,0.94);
+    margin-bottom: 5px;
+    padding-top:10px;
+    position: absolute;
+    top: 193px;
+    left: 0;
+    line-height: 28px;
+}
+#img hgroup h1{
+    font-weight:bold;
+    font-size: 33px;
+    color: #fff;
+    margin-bottom: 3px;
+}
+#img hgroup h2{
+    font-size: 12px;
+    color: #fff;
+    padding-bottom: 3px;
+}
+#tabsContainer{
+    width: 525px;
+    float: left;
+    background: #e3e2e2;
+    border-radius: 4px;
+    padding: 3px 3px 3px 0;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#edge{
+    position: absolute;
+    top: 0;
+    left: 480px;
+}
+#innerBg{
+    background: #fff;
+    margin:0 auto;
+    border-radius: 4px;
+    padding: 20px 25px 35px 25px;
+}
+footer p{
+    color: #cccccc;
+    font-size: 11px;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+ul#socials{
+    height: 40px;
+    margin-left: 425px;
+    width: 200px;
+    margin-top: 5px;
+}
+ul#socials li{
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    padding-left: 5px;
+}
+ul#socials li.fb{
+    background: url(../images/social-sprite.png) no-repeat 0 0;
+}
+ul#socials li.tw{
+    background: url(../images/social-sprite.png) no-repeat -36px 0;
+}
+ul#socials li.li{
+    background: url(../images/social-sprite.png) no-repeat -72px 0;
+}
+ul#socials li.vm{
+    background: url(../images/social-sprite.png) no-repeat -108px 0;
+}
+ul#socials li.fb,
+ul#socials li.tw,
+ul#socials li.li,
+ul#socials li.vm{
+    transition: background-position 0.3s ease-in-out;
+}
+ul#socials li.fb:hover{
+    background: url(../images/social-sprite.png) no-repeat 0 -31px;
+}
+ul#socials li.tw:hover{
+    background: url(../images/social-sprite.png) no-repeat -36px -31px;
+}
+ul#socials li.li:hover{
+    background: url(../images/social-sprite.png) no-repeat -72px -31px;
+}
+ul#socials li.vm:hover{
+    background: url(../images/social-sprite.png) no-repeat -108px -31px;
+}
+/* End general style */
+
+/* About tab */
+
+#about{
+    font-size: 12px;
+    width: 478px;
+}
+#about hgroup,
+p{
+    margin: 0;
+    padding: 0;
+}
+#introduction ul li{
+    background: #efefef;
+    border-radius: 4px;
+    color: #666666;
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-top: 9px;
+    padding: 6px 44px 5px 10px;
+    border-left: 3px solid #cccccc;
+}
+#introduction ul li span{
+    font-weight:bold;
+}
+.info{
+    float: left;
+    margin-right: 38px;
+}
+#about h1{
+    font-family:"Signika";
+    font-weight:400;
+    font-size: 18px;
+    color: #cd5353;
+    margin:0 0 10px 0;
+    padding: 0;
+}
+#about h4{
+    font-size: 12px;
+    color: #666666;
+    font-weight:bold;
+}
+#about h6{
+    font-size: 11px;
+    color: #333333;
+    font-weight: bold;
+    font-style: italic;
+}
+#skills,
+#introduction,
+#experience{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #e3e2e2;
+}
+#education{
+    margin-bottom: 20px;
+}
+#skills1,
+#skills2{
+    float: left;
+    margin-right: 74px;
+    width: 165px;
+}
+#skills ul{
+    float: left;
+    width: 237px;
+}
+#skills ul + ul{
+    margin-left: 4px;
+}
+#skills li{
+    color: #666666;
+    font-size: 12px;
+    font-weight:bold;
+    padding-bottom: 3px;
+    float: left;
+    width: 200px;
+}
+#skills li span{
+    float: right;
+    width: 113px;
+    height: 17px;
+}
+#skills  li span.r1{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
+#skills  li span.r2{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
+#skills  li span.r3{background: url(../images/rating-sprite.png) no-repeat scroll 0 -36px}
+#skills  li span.r4{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
+#skills  li span.r5{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
+
+#skills  li span.r6{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
+#skills  li span.r7{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
+#skills  li span.r8{background: url(../images/rating-sprite.png) no-repeat scroll 0 -36px}
+#skills  li span.r9{background: url(../images/rating-sprite.png) no-repeat scroll 0 -76px}
+#skills  li span.r10{background: url(../images/rating-sprite.png) no-repeat scroll 0 -56px}
+
+a.vcardButton{
+    margin-left: 330px;
+    background: #CD5353;
+    border: 1px solid #CD5353;
+    width: auto;
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #ffffff;
+    background-image: url(../images/bg-button.png);
+    background-position: 0 0;
+    background-repeat:repeat-x;
+    transition: all 0.4s ease-in-out;
+}
+a.vcardButton:hover{
+    background: #777777;
+    border: 1px solid #777777;
+    background-image: url(../images/bg-button.png);
+    background-position: 0 0;
+    background-repeat:repeat-x;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
