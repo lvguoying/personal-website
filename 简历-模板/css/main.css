@@ -435,7 +435,11 @@ a.vcardButton:hover{
 
 }
 
-.inner_copyright{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+.inner_copyright{
+	text-indent:-9999px;
+	height:0;line-height:0;
+	font-size:0;overflow:hidden;
+}
 /* End about tab */
 
 
@@ -887,7 +891,6 @@ blockquote.style3{
 	-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
 	-o-box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
 	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
-
 }
 
 .blogForm{
@@ -955,7 +958,8 @@ blockquote.style3{
 	margin-bottom:15px;
 }
 
-#replyForm input#submitReply, #commentForm input#submitComment{
+#replyForm input#submitReply,
+#commentForm input#submitComment{
 	background-color:#CD5353;
 	border:1px solid #CD5353;
 	width:auto;
