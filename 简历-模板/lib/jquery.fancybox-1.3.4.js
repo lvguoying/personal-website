@@ -29,7 +29,7 @@
 		isIE6 = $.browser.msie && $.browser.version < 7 && !window.XMLHttpRequest,
 
 		/*
-		 * Private methods 
+		 * Private methods
 		 */
 
 		_abort = function() {

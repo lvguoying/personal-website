@@ -148,15 +148,14 @@ header{
     border-radius: 4px;
 }
 #img hgroup{
-    background: #CD5353;
     width: 218px;
     border-radius: 0 0 4px 4px;
     text-align: center;
-    background: rgba(205,83,83,0.94);
+    background: rgba(23, 23, 23,0.5);
     margin-bottom: 5px;
     padding-top:10px;
     position: absolute;
-    top: 193px;
+    top: 300px;
     left: 0;
     line-height: 28px;
 }
@@ -189,7 +188,6 @@ header{
 #innerBg{
     background: #fff;
     margin:0 auto;
-    height: 1000px;
     border-radius: 4px;
     padding: 20px 25px 35px 25px;
     position: relative;
@@ -249,8 +247,8 @@ ul#socials li.vm:hover{
 #about{
     font-size: 12px;
     width: 478px;
-    border: 1px solid #000;
-    position: absolute;
+    /*border: 1px solid #000;*/
+    /*position: absolute;*/
 }
 #about hgroup,
 p{
@@ -375,8 +373,8 @@ a.vcardButton:hover{
 /*Portfolio tab */
 #portfolio{
     width: 478px;
-    border: 1px solid #000;
-    position: absolute;
+    /*border: 1px solid #000;*/
+    /*position: absolute;*/
     display: none;
 }
 #portfolio h1{
@@ -480,8 +478,6 @@ li.item h3 span{
 /* Blog tab */
 #blog{
     width: 478px;
-    border: 1px solid #000000;
-    position: absolute;
     display: none;
 }
 #blog h1{
@@ -663,7 +659,7 @@ blockquote.style3{
 .comments .replys {
     margin-left: 37px;
 }
-.comments .replys-btn a{
+.comments .reply-btn a{
     float: right;
     background: #777777;
     width:auto;
@@ -678,7 +674,7 @@ blockquote.style3{
     background-repeat:repeat-x;
     transition: all 0.4s ease-in-out;
 }
-.comments .replys-btn a:hover{
+.comments .reply-btn a:hover{
     background: #cd5353;
     border: 1px solid #CD5353;
     background-image: url(../images/bg-button.png);
