@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta charset="UTF-8">
@@ -8,470 +9,685 @@
     <script src="lib/jquery.min.js"></script>
     <script src="lib/index.js"></script>
 </head>
+
 <body>
-<!--page Wrapper-->
-<div id="wrapper" class="clearfix">
-    <!-- Style switcher-->
-    <section id="styleSwitcher">
-        <div id="inset">
-            <a class="orange" href="javascript:;">&nbsp;&nbsp;</a>
-            <a class="red" href="javascript:;">&nbsp;&nbsp;</a>
-            <a class="green" href="javascript:;">&nbsp;&nbsp;</a>
-            <a href="javascript:;" data-id="1"><img src="images/pattern/patt1.png" alt=""></a>
-            <a href="javascript:;" data-id="2"><img src="images/pattern/patt2.png" alt=""></a>
-            <a href="javascript:;" data-id="3"><img src="images/pattern/patt3.png" alt=""></a>
-        </div>
-    </section>
+    <!--page Wrapper-->
+    <div id="wrapper" class="clearfix">
+        <!-- Style switcher-->
+        <section id="styleSwitcher">
+            <div id="inset">
+                <a class="orange" href="javascript:;">&nbsp;&nbsp;</a>
+                <a class="red" href="javascript:;">&nbsp;&nbsp;</a>
+                <a class="green" href="javascript:;">&nbsp;&nbsp;</a>
+                <a href="javascript:;" data-id="1">
+                    <img src="images/pattern/patt1.png" alt="">
+                </a>
+                <a href="javascript:;" data-id="2">
+                    <img src="images/pattern/patt2.png" alt="">
+                </a>
+                <a href="javascript:;" data-id="3">
+                    <img src="images/pattern/patt3.png" alt="">
+                </a>
+            </div>
+        </section>
 
-    <!--End style switcher-->
+        <!--End style switcher-->
 
-    <!-- Page Header -->
-    <header id="header" class="clearfix">
-        <figure id="img">
-            <img src="images/img.png"  width="218" alt="">
-            <hgroup>
-                <h1>吕国营</h1>
-                <h2>前端开发工程师</h2>
-            </hgroup>
-        </figure>
-        <nav id="mainNav">
-            <ul class="tabs clearfix">
-                <li class="tab-ab active"><a class="tab-about" href="javascript:;">简介</a></li>
-                <li class="tab-pr"><a class="tab-project" href="javascript:;">项目</a></li>
-                <li class="tab-bl"><a class="tab-blog" href="javascript:;">GitHub</a></li>
-                <li class="tab-co"><a class="tab-contact" href="javascript:;">联系</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- End Page Header -->
-
-    <!-- Tabs Container -->
-    <section id="tabsContainer" class="clearfix">
-        <figure id="edge"><img src="images/edge.png" alt=""></figure>
-        <!--Inner-->
-        <div id="innerBg">
-
-            <!-- About Tab -->
-            <article id="about" class="clearfix ">
-
-                <!-- Introduction -->
-                <section id="introduction" class="clearfix">
-                    <h1>/ 自我介绍</h1>
-                    <p>一名酷爱前端的程序猿,13届本科毕业生，跨专业自学前端，从学习前端开始每天代码量300行以上，基础知识掌握牢固，喜欢接触行业顶端的技术知识
-                    ，善于提问，乐于助人。就是你需要的Web工程师</p>
-                    <ul class="info">
-                        <li><span>姓名</span> ： 吕国营</li>
-                        <li><span>出生日期</span> ： 27/6/1994</li>
-                        <li><span>住址</span>黑龙江哈尔滨</li>
-                    </ul>
-
-                    <ul class="info">
-                        <li><span>邮箱</span> ： 876512359@qq.com</li>
-                        <li><span>电话</span> ： 17615010410</li>
-                        <li><span>网址</span> ： www.lvguoying.com</li>
-                    </ul>
-                </section>
-                <!-- End introduction -->
-
-                <!-- Skills -->
-                <section id="skills" class="clearfix">
-                    <div id="skills1">
-                        <h1>/ 前端技能</h1>
-                        <ul id="graphics">
-                            <li><span class="r1"></span>HTML5/CSS3</li>
-                            <li>JavaScript/ES6<span class="r2"></span></li>
-                            <li>Bootstrap<span class="r3"></span></li>
-                            <li>Jquery<span class="r4"></span></li>
-                            <li>RequireJS<span class="r5"></span></li>
-                        </ul>
-                    </div>
-                    <div id="skills2">
-                        <h1>/ 后端技能</h1>
-                        <ul id="programming">
-                            <li>NodeJS<span class="r6">&nbsp;</span></li>
-                            <li>Vue<span class="r7">&nbsp;</span></li>
-                            <li>Php<span class="r8">&nbsp;</span></li>
-                            <li>Npm<span class="r9">&nbsp;</span></li>
-                            <li>Sass<span class="r10">&nbsp;</span></li>
-                        </ul>
-                    </div>
-                </section>
-                <!-- End skills -->
-
-                <!-- Experience -->
-                <section id="experience">
-                    <h1>/ 工作经历</h1>
-                    <hgroup>
-                        <h4>北京-58到家</h4>
-                        <h6>2017-2018</h6>
-                    </hgroup>
-                    <p>
-                        在职期间任前端开发工作，对PC端以及移动端的网页界面进行维护优化等，对Bootstrap、MobileJquery框架熟练使用，对基本DOM结构
-                        掌握牢固，CSS、HTML、Javascript运用自如，可以修复常见BUG，独立开发UI网页。
-                    </p>
-                    <br/>
-                    <hgroup>
-                        <h4>北京-阿里巴巴</h4>
-                        <h6>2017-2018</h6>
-                    </hgroup>
-                    <p>在职期间任前端开发工作，对PC端以及移动端的网页界面进行维护优化等，对Bootstrap、MobileJquery框架熟练使用，对基本DOM结构
-                        掌握牢固，CSS、HTML、Javascript运用自如，可以修复常见BUG，独立开发UI网页。</p>
-                </section>
-                <!-- Experience -->
-
-                <!-- Education -->
-                <section id="eduction">
-                    <h1>/ 教育经历</h1>
-                    <hgroup>
-                        <h4>大庆师范学院</h4>
-                        <h6>2013-2017</h6>
-                    </hgroup>
-                    <p>
-                        本科专业-化学工程与工艺，由于热爱前端，大二开始学习，并开始仿写网站
-                    </p>
-                    <hgroup>
-                        <h4>唯创网讯</h4>
-                        <h6>2017-2018</h6>
-                    </hgroup>
-                    <p>本站力争为大家提供最好最全的网站模板、HTML5模板、Wordpress主题模板、CSS Menu等实用资源，
-                        模板都是我们从国外大小网站收集而来，旨在为朋友们在工作或学习时提高效率、节省时间。</p>
-
-
-                </section>
-                <!-- End education -->
-                <a href="#" class="vcardButton">下载我的简历</a>
-                <!-- End About Tab -->
-            </article>
-            <!-- Portfolio Tab -->
-            <article id="portfolio" class="clearfix">
-                <!-- Introduction -->
-                <h1>/ 我的项目</h1>
-                <p>曾经在大学期间自学前端，并制作了一些项目，一下是部分展示，从PC端到移动端都有涉及，PC端制作了个人网站，并已经上线展示，小米官网，淘宝官网，iphone官网进行仿写多次，对基本DOM结构了如指掌。Mobile项目APP也已经上线。一下是部分展示……</p>
-                <!-- End Introduction -->
-
-                <!-- Filter nav -->
-                <ul id="category" class="filter">
-                    <li class="current all"><a href="#">全部<span>&nbsp;&nbsp;/</span></a></li>
-                    <li class="WebDesign"><a href="#">个人主页<span>&nbsp;/</span></a></li>
-                    <li class="WebDevelopment"><a href="#">仿站<span>&nbsp;&nbsp;/</span></a></li>
-                    <li class="Animation"><a href="#">Mobile&nbsp;&nbsp;&nbsp;</a></li>
+        <!-- Page Header -->
+        <header id="header" class="clearfix">
+            <figure id="img">
+                <img src="images/img.png" width="218" alt="">
+                <hgroup>
+                    <h1>吕国营</h1>
+                    <h2>前端开发工程师</h2>
+                </hgroup>
+            </figure>
+            <nav id="mainNav">
+                <ul class="tabs clearfix">
+                    <li class="tab-ab active">
+                        <a class="tab-about" href="javascript:;">简介</a>
+                    </li>
+                    <li class="tab-pr">
+                        <a class="tab-project" href="javascript:;">项目</a>
+                    </li>
+                    <li class="tab-bl">
+                        <a class="tab-blog" href="javascript:;">GitHub</a>
+                    </li>
+                    <li class="tab-co">
+                        <a class="tab-contact" href="javascript:;">联系</a>
+                    </li>
                 </ul>
-                <!-- End filter nav -->
+            </nav>
+        </header>
+        <!-- End Page Header -->
 
-                <!-- Work list -->
-                <section id="works">
-                    <ul id="items" class="portfolio">
-                        <li data-id="id-1" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im1.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 仿站 小米</span></h3></li>
-                        <li data-id="id-2" data-type="WebDevelopment" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im2.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 仿站 淘宝</span></h3></li>
-                        <li data-id="id-3" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im3.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 仿站 iphone</span></h3></li>
-                        <li data-id="id-4" data-type="WebDevelopment" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im4.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 仿站 微博</span></h3></li>
-                        <li data-id="id-9" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im5.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 个人 主页</span></h3></li>
-                        <li data-id="id-10" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im6.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 个人 简历</span></h3></li>
-                        <li data-id="id-11" data-type="WebDesign" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im7.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 阿里巴巴</span></h3></li>
-                        <li data-id="id-12" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im8.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 滴滴打车</span></h3></li>
-                        <li data-id="id-13" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im9.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 网易云音乐</span></h3></li>
-                        <li data-id="id-14" data-type="Animation" class="item"><a class="folio" href="images/folioimages/preview.jpg"><span class="plus"></span></a><img src="images/folioimages/im10.jpg" alt="" /><span class="border"></span><h3>项目题目<span> / 58同城</span></h3></li>
-                    </ul>
-                </section>
-                <!-- End Works list -->
-            </article>
-            <!-- End portfolio Tab -->
+        <!-- Tabs Container -->
+        <section id="tabsContainer" class="clearfix">
+            <figure id="edge">
+                <img src="images/edge.png" alt="">
+            </figure>
+            <!--Inner-->
+            <div id="innerBg">
 
-            <!--Blog Tab -->
-            <article id="blog" class="clearfix">
-                <h1>/ 我的博客</h1>
-                <!-- Blog post -->
-                <section class="blogPost">
-                    <h1>你认为Web前端在工作中的主要任务是什么 ？</h1>
-                    <figure class="imgInfo"><img src="images/postImage1.jpg" alt="">
-                        <ul class="blogInfo">
-                            <li class="whois">用户名</li>
-                            <li class="cat">设计者</li>
-                            <li class="date">2018-3-27</li>
-                            <li class="comment">99浏览</li>
-                        </ul>
-                    </figure>
-                    <p>hasLayout对于内联元素也可以有效果，当内联元素的hasLayout为true的时候，
-                        <span class="highlighted-3">
-                            可以给这个内联元素设定高度和宽度并得到期望的效果。
-                        </span>具体关于hasLayout的知识点，可以另外搜索。
-                        为了防止低版本的IE浏览器不支持after选择器或者某些属性，在最后加上zoom:1来清除浮动。
-                    </p>
-                    <blockquote class="style1">
-                        zoom是IE专用属性，firefox等是不支持的。它的本来作用是设置或检索对象的缩放比例，但这作用几乎用不到。
-                        可以让网页实现IE7中的放大缩小功能。比如你想让你的网页缩小为原来的一半，那么就在body中加入style="zoom:0.5"
-                    </blockquote>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <a href="" class="btnMore">+ 继续阅读</a>
-                    <div class="read-more">
-                        <p class="highlight-1">
-                            有道桌面词典显示，”flex”一词中文有“收缩”之意。不过，从此属性实际上产生的效果来看，无论怎样用“收缩”一词解释都显得很牵强。
+                <!-- About Tab -->
+                <article id="about" class="clearfix ">
+
+                    <!-- Introduction -->
+                    <section id="introduction" class="clearfix">
+                        <h1>/ 自我介绍</h1>
+                        <p>一名酷爱前端的程序猿,13届本科毕业生，跨专业自学前端，从学习前端开始每天代码量300行以上，基础知识掌握牢固，喜欢接触行业顶端的技术知识 ，善于提问，乐于助人。就是你需要的Web工程师
                         </p>
-                        <blockquote class="style3">有道桌面词典显示，”flex”一词中文有“收缩”之意。不过，从此属性实际上产生的效果来看，无论怎样用“收缩”一词解释都显得很牵强。
-                            有道桌面词典显示，”flex”一词中文有“收缩”之意。不过，从此属性实际上产生的效果来看，无论怎样用“收缩”一词解释都显得很牵强。
-
-                        </blockquote>
-                        <!--Comments holder -->
-                        <section class="comments-holder">
-                            <h1>/ 评论</h1>
-                            <!-- Comments -->
-                            <ul class="comments clearfix">
-                                <li>
-                                    <div class="comment">
-                                        <div class="img">
-                                            <img width="50" height="50" src="images/small-img.jpg" alt="">
-                                        </div>
-                                        <div class="reply-btn">
-                                            <a href="#replyForm" class="replyDisplay">回复</a>
-                                        </div>
-                                        <div class="commentContent">
-                                            <p>
-                                                <a href="" class="author">吕国营</a>
-                                                <br/>
-                                                <span class="date">2018-2-22</span>
-                                            </p>
-                                            <p>毕竟属于CSS3的东西，目前而言，仅Firefox/Chrome/Safari浏览器支持弹性盒子模型（IE9不详，Opera尚未），且使用的时候，需要附带私有前缀。就是诸如-moz-, -webkit-之类。</p>
-                                        </div>
-                                    </div>
-                                    <ul class="replys">
-                                        <li>
-                                            <div class="comment">
-                                                <div class="img"><img width="50" height="50" src="images/small-img.jpg" alt=""></div>
-                                                <div class="reply-btn"><a href="#replyForm" class="replyDisplay">回复</a></div>
-                                                <div class="commentContent">
-                                                    <p>
-                                                        <a href="#" class="author">吕国营</a>
-                                                        <br/>
-                                                        <span class="date">2018-2-22</span>
-                                                    </p>
-                                                    <p>毕竟属于CSS3的东西，目前而言，仅Firefox/Chrome/Safari浏览器支持弹性盒子模型（IE9不详，Opera尚未），且使用的时候，需要附带私有前缀。就是诸如-moz-, -webkit-之类。</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <!-- End comments -->
-                            <div class="post-comment"><a href="#commentForm" class="commentDisplay">提交评论</a></div>
-                        </section>
-                    </div>
-                    <!-- End comments holder -->
-                </section>
-                <!-- End blog post -->
-
-                <!-- Blog post -->
-                <section class="blogPost">
-                    <h1>你如何理解Html标签语义化的含义？</h1>
-                    <figure class="imgInfo"><img src="images/postImage2.jpg" alt="">
-                    <ul class="blogInfo">
-                        <li class="whois">用户名</li>
-                        <li class="cat">设计者</li>
-                        <li class="date">2018-3-27</li>
-                        <li class="comment">99浏览</li>
-                    </ul>
-                    </figure>
-                    <p>
-                        但是随着 Web 规模的不断扩大，信息量之大已经不在人肉处理的范围之内了。这个时候人们开始用机器来处理 Web 上发布的各种内容，搜索引擎就诞生了。
-                        <span class="highlighted-3">再后来，人们又设计了各种智能程序来对索引好的内容作各种处理和挖掘。
-                        </span>
-                        所以让机器能够更好地读懂 Web 上发布的各种内容就变得越来越重要。
-                    </p>
-                    <blockquote class="style2">
-                        对于当前的 Web 而言，HTML 是联系大多数 Web 资源的纽带，也是内容的载体。在 Web 被刚刚设计出来的时候，Tim Berners-Lee 可能不会想到它现在会达到的规模以及深入到我们生活的那么多方面。也许起初的想法很简单：用来发布 Web 内容和资源的索引，方便人们查看。
-                    </blockquote>
-                    <p>其实 HTML 在刚开始设计出来的时候就是带有一定的「语义」的，包括段落、表格、图片、标题等等，但这些更多地只是方便浏览器等 UA 对它们作合适的处理。</p>
-                    <a href="#" class="btnMore">+ 继续阅读</a>
-
-                    <!-- Read more -->
-                    <div class="read-more">
-                        <p class="highlight-1">
-                            我们应该在发布内容的时候，就用机器可读的、被广泛认可的语义信息来描述内容，来降低机器处理 Web 内容的难度（HTML 本身就已经是朝这个方向迈出的一小步了）。
-                        </p>
-                        <blockquote class="style3">
-                            HTML 规范其实一直在往语义化的方向上努力，许多元素、属性在设计的时候，就已经考虑了如何让各种用户代理甚至网络爬虫更好地理解 HTML 文档。
-                        </blockquote>
-
-                        <!-- Comments holder -->
-                        <section class="comments-holder">
-                            <h1>/ 评论</h1>
-                            <!-- Comments -->
-                            <ul class="comments clearfix">
-                                <li>
-                                    <div class="comment">
-                                        <div class="img">
-                                            <img width="50" height="50" alt="" src="images/small-img.jpg" /></div>
-                                        <div class="reply-btn"><a class="replyDisplay" href="#replyForm">回复</a></div>
-                                        <div class="commentContent">
-                                            <p>
-                                                <a href="#" class="author">吕国营</a>
-                                                <br />
-                                                <span class="date">2018-2-23</span>
-                                            </p>
-                                            <p>HTML5 并非 Web 语义唯一倚仗的规范，除了 W3C 和 WHATWG 外，还有其它的组织在为扩展、标准化 Web 语义做着贡献。只要有浏览器厂商、搜索引擎原意支持，它们的规范一样可以成为通用的基础设施</p>
-                                        </div>
-
-                                    </div>
-                                    <ul class="replys">
-                                        <li>
-                                            <div class="comment">
-                                                <div class="img"><img width="50" height="50" alt="" src="images/small-img.jpg" /></div>
-                                                <div class="reply-btn"><a class="replyDisplay" href="#replyForm">回复</a></div>
-                                                <div class="commentContent">
-                                                    <p><a href="#" class="author">吕国营</a>
-                                                        <br />
-                                                        <span class="date">2018-3-27</span>
-                                                    </p>
-                                                    <p>语义网是让机器可以理解数据。语义网技术，它包括一套描述语言和推理逻辑。它包通过一些格式对本体（Ontology）进行描述。</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <!-- End comments-->
-                            <div class="post-comment"><a href="#commentForm" class="commentDisplay">提交评论</a></div>
-                        </section>
-                    </div>
-                    <!-- End comments holder -->
-                </section>
-                <!-- End blog post -->
-
-                <!-- Blog post -->
-                <section class="blogPost">
-                    <h1>在Css中存在盒模型，你是如何理解弹性盒模型，标准/怪异盒模型的？</h1>
-                    <img src="images/postImage2.jpg" alt="">
-                    <div class="info">
-                        <ul class="blogInfo-no-image">
-                            <li class="whois">用户名</li>
-                            <li class="cat">设计者</li>
-                            <li class="date">2018-2-5</li>
-                            <li class="comment">99评论</li>
+                        <ul class="info">
+                            <li>
+                                <span>姓名</span> ： 吕国营</li>
+                            <li>
+                                <span>出生日期</span> ： 27/6/1994</li>
+                            <li>
+                                <span>住址</span>黑龙江哈尔滨</li>
                         </ul>
-                    </div>
-                    <p>元素框的最内部分是实际的内容，直接包围内容的是内边距。内边距呈现了元素的背景。 <span class="highlighted-3">背景应用于由内容和内边距、边框组成的区域。</span> 内边距的边缘是边框。边框以外是外边距，外边距默认是透明的，因此不会遮挡其后的任何元素。</p>
-                    <blockquote class="style2">虽然有方法解决这个问题。但是目前最好的解决方案是回避这个问题。也就是，不要给元素添加具有指定宽度的内边距，而是尝试将内边距或外边距添加到元素的父元素和子元素</blockquote>
-                    <p>一旦为页面设置了恰当的 DTD，大多数浏览器都会按照上面的图示来呈现内容。然而 IE 5 和 6 的呈现却是不正确的。根据 W3C 的规范，元素内容占据的空间是由 width 属性设置的，而内容周围的 padding 和 border 值是另外计算的。不幸的是，IE5.X 和 6 在怪异模式中使用自己的非标准模型。这些浏览器的 width 属性不是内容的宽度，而是内容、内边距和边框的宽度的总和。</p>
-                    <a class="btnMore" href="#">+ Continue reading</a>
-                    <!-- Read more-->
-                    <div class="read-more">
-                        <p class="highlight-1">前面提到过，可以为元素的内边距设置百分数值。百分数值是相对于其父元素的 width 计算的，这一点与外边距一样。所以，如果父元素的 width 改变，它们也会改变。</p>
-                        <blockquote class="style3">在 HTML 中，我们使用表格来创建文本周围的边框，但是通过使用 CSS 边框属性，我们可以创建出效果出色的边框，并且可以应用于任何元素。</blockquote>
-                        <!-- Comments holder -->
-                        <section class="comments-holder">
-                            <h1>/ 评论</h1>
-                            <!-- Comments-->
-                            <ul class="comments clearfix">
+
+                        <ul class="info">
+                            <li>
+                                <span>邮箱</span> ： 876512359@qq.com</li>
+                            <li>
+                                <span>电话</span> ： 17615010410</li>
+                            <li>
+                                <span>网址</span> ： www.lvguoying.com</li>
+                        </ul>
+                    </section>
+                    <!-- End introduction -->
+
+                    <!-- Skills -->
+                    <section id="skills" class="clearfix">
+                        <div id="skills1">
+                            <h1>/ 前端技能</h1>
+                            <ul id="graphics">
                                 <li>
-                                    <div class="comment">
-                                        <div class="img">
-                                            <img width="50" height="50" alt="" src="images/small-img.jpg" /></div>
-                                        <div class="reply-btn"><a class="replyDisplay" href="#replyForm">回复</a></div>
-                                        <div class="commentContent">
-                                            <p>
-                                                <a href="#" class="author">John Smith</a>
-                                                <br />
-                                                <span class="date">Juin 20, 2012</span>
-                                            </p>
-                                            <p>CSS 规范指出，边框绘制在“元素的背景之上”。这很重要，因为有些边框是“间断的”（例如，点线边框或虚线框），元素的背景应当出现在边框的可见部分之间。</p>
-                                        </div>
-                                    </div>
-                                    <ul class="replys">
-                                        <li>
-                                            <div class="comment">
-                                                <div class="img"><img width="50" height="50" alt="" src="images/small-img.jpg" /></div>
-                                                <div class="reply-btn"><a class="replyDisplay" href="#replyForm">回复</a></div>
-                                                <div class="commentContent">
-                                                    <p> <a href="#" class="author">John Smith</a><br /><span class="date">2018-2-22</span></p>
-                                                    <p>CSS2 指出背景只延伸到内边距，而不是边框。后来 CSS2.1 进行了更正：元素的背景是内容、内边距和边框区的背景。大多数浏览器都遵循 CSS2.1 定义，不过一些较老的浏览器可能会有不同的表现。</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    <span class="r1"></span>HTML5/CSS3</li>
+                                <li>JavaScript/ES6
+                                    <span class="r2"></span>
+                                </li>
+                                <li>Bootstrap
+                                    <span class="r3"></span>
+                                </li>
+                                <li>Jquery
+                                    <span class="r4"></span>
+                                </li>
+                                <li>RequireJS
+                                    <span class="r5"></span>
                                 </li>
                             </ul>
-                            <!-- End comments-->
-                            <div class="post-comment"><a class="commentDisplay" href="#commentForm">提交评论</a></div>
-                        </section>
-                    </div>
-                    <!-- End comments holder -->
-                </section>
-                <!-- End blog post -->
+                        </div>
+                        <div id="skills2">
+                            <h1>/ 后端技能</h1>
+                            <ul id="programming">
+                                <li>NodeJS
+                                    <span class="r6">&nbsp;</span>
+                                </li>
+                                <li>Vue
+                                    <span class="r7">&nbsp;</span>
+                                </li>
+                                <li>Php
+                                    <span class="r8">&nbsp;</span>
+                                </li>
+                                <li>Npm
+                                    <span class="r9">&nbsp;</span>
+                                </li>
+                                <li>Sass
+                                    <span class="r10">&nbsp;</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- End skills -->
 
-                <!-- Pagination -->
-                <section id="pagination" class="clearfix">
-                    <ul>
-                        <li><a href="#" class="selected">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">5</a></li>
+                    <!-- Experience -->
+                    <section id="experience">
+                        <h1>/ 工作经历</h1>
+                        <hgroup>
+                            <h4>北京-58到家</h4>
+                            <h6>2017-2018</h6>
+                        </hgroup>
+                        <p>
+                            在职期间任前端开发工作，对PC端以及移动端的网页界面进行维护优化等，对Bootstrap、MobileJquery框架熟练使用，对基本DOM结构 掌握牢固，CSS、HTML、Javascript运用自如，可以修复常见BUG，独立开发UI网页。
+                        </p>
+                        <br/>
+                        <hgroup>
+                            <h4>北京-阿里巴巴</h4>
+                            <h6>2017-2018</h6>
+                        </hgroup>
+                        <p>在职期间任前端开发工作，对PC端以及移动端的网页界面进行维护优化等，对Bootstrap、MobileJquery框架熟练使用，对基本DOM结构 掌握牢固，CSS、HTML、Javascript运用自如，可以修复常见BUG，独立开发UI网页。
+                        </p>
+                    </section>
+                    <!-- Experience -->
+
+                    <!-- Education -->
+                    <section id="eduction">
+                        <h1>/ 教育经历</h1>
+                        <hgroup>
+                            <h4>大庆师范学院</h4>
+                            <h6>2013-2017</h6>
+                        </hgroup>
+                        <p>
+                            本科专业-化学工程与工艺，由于热爱前端，大二开始学习，并开始仿写网站
+                        </p>
+                        <hgroup>
+                            <h4>唯创网讯</h4>
+                            <h6>2017-2018</h6>
+                        </hgroup>
+                        <p>本站力争为大家提供最好最全的网站模板、HTML5模板、Wordpress主题模板、CSS Menu等实用资源， 模板都是我们从国外大小网站收集而来，旨在为朋友们在工作或学习时提高效率、节省时间。
+                        </p>
+
+
+                    </section>
+                    <!-- End education -->
+                    <a href="#" class="vcardButton">下载我的简历</a>
+                    <!-- End About Tab -->
+                </article>
+                <!-- Portfolio Tab -->
+                <article id="portfolio" class="clearfix">
+                    <!-- Introduction -->
+                    <h1>/ 我的项目</h1>
+                    <p>曾经在大学期间自学前端，并制作了一些项目，一下是部分展示，从PC端到移动端都有涉及，PC端制作了个人网站，并已经上线展示，小米官网，淘宝官网，iphone官网进行仿写多次，对基本DOM结构了如指掌。Mobile项目APP也已经上线。一下是部分展示……</p>
+                    <!-- End Introduction -->
+
+                    <!-- Filter nav -->
+                    <ul id="category" class="filter">
+                        <li class="current all">
+                            <a href="#">全部
+                                <span>&nbsp;&nbsp;/</span>
+                            </a>
+                        </li>
+                        <li class="WebDesign">
+                            <a href="#">个人主页
+                                <span>&nbsp;/</span>
+                            </a>
+                        </li>
+                        <li class="WebDevelopment">
+                            <a href="#">仿站
+                                <span>&nbsp;&nbsp;/</span>
+                            </a>
+                        </li>
+                        <li class="Animation">
+                            <a href="#">Mobile&nbsp;&nbsp;&nbsp;</a>
+                        </li>
                     </ul>
+                    <!-- End filter nav -->
 
-                    <div id="np">
-                        <div id="prev"><a href="#">&larr; 上一页</a></div>
-                        <div id="next"><a href="#">下一页 &rarr;</a></div>
-                    </div>
-                </section>
-                <!-- End pagination -->
+                    <!-- Work list -->
+                    <section id="works">
+                        <ul id="items" class="portfolio">
+                            <li data-id="id-1" data-type="WebDesign" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im1.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 仿站 小米</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-2" data-type="WebDevelopment" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im2.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 仿站 淘宝</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-3" data-type="WebDesign" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im3.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 仿站 iphone</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-4" data-type="WebDevelopment" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im4.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 仿站 微博</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-9" data-type="WebDesign" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im5.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 个人 主页</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-10" data-type="Animation" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im6.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 个人 简历</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-11" data-type="WebDesign" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im7.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 阿里巴巴</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-12" data-type="Animation" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im8.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 滴滴打车</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-13" data-type="Animation" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im9.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 网易云音乐</span>
+                                </h3>
+                            </li>
+                            <li data-id="id-14" data-type="Animation" class="item">
+                                <a class="folio" href="images/folioimages/preview.jpg">
+                                    <span class="plus"></span>
+                                </a>
+                                <img src="images/folioimages/im10.jpg" alt="" />
+                                <span class="border"></span>
+                                <h3>项目题目
+                                    <span> / 58同城</span>
+                                </h3>
+                            </li>
+                        </ul>
+                    </section>
+                    <!-- End Works list -->
+                </article>
+                <!-- End portfolio Tab -->
 
-                <!-- Blog forms-->
-                <section class="blogForm">
-                    <!--Reply form-->
-                    <div id="replyForm">
-                        <h1>/ 回复给作者</h1>
-                        <form class="replyForm" method="post" action="#" />
-                        <input type="text" name="nameReply" id="nameReply" placeholder="你的名字" class="required" />
-                        <input type="email" name="emailReply" id="emailReply" placeholder="你的邮箱" class="required" />
-                        <input type="text" name="websiteReply" id="websiteReply" placeholder="你的网址" />
-                        <textarea name="messageReply" id="messageReply" cols="45" rows="10" placeholder="你的信息" class="required"></textarea>
-                        <input type="submit" name="submitReply" id="submitReply" value="Submit" />
-                        </form>
-                    </div>
-                    <!--End reply form-->
+                <!--Blog Tab -->
+                <article id="blog" class="clearfix">
+                    <h1>/ 我的博客</h1>
+                    <!-- Blog post -->
+                    <section class="blogPost">
+                        <h1>你认为Web前端在工作中的主要任务是什么 ？</h1>
+                        <figure class="imgInfo">
+                            <img src="images/postImage1.jpg" alt="">
+                            <ul class="blogInfo">
+                                <li class="whois">用户名</li>
+                                <li class="cat">设计者</li>
+                                <li class="date">2018-3-27</li>
+                                <li class="comment">99浏览</li>
+                            </ul>
+                        </figure>
+                        <p>hasLayout对于内联元素也可以有效果，当内联元素的hasLayout为true的时候，
+                            <span class="highlighted-3">
+                                可以给这个内联元素设定高度和宽度并得到期望的效果。
+                            </span>具体关于hasLayout的知识点，可以另外搜索。 为了防止低版本的IE浏览器不支持after选择器或者某些属性，在最后加上zoom:1来清除浮动。
+                        </p>
+                        <blockquote class="style1">
+                            zoom是IE专用属性，firefox等是不支持的。它的本来作用是设置或检索对象的缩放比例，但这作用几乎用不到。 可以让网页实现IE7中的放大缩小功能。比如你想让你的网页缩小为原来的一半，那么就在body中加入style="zoom:0.5"
+                        </blockquote>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                            type and scrambled it to make a type specimen book.</p>
+                        <a href="" class="btnMore">+ 继续阅读</a>
+                        <div class="read-more">
+                            <p class="highlight-1">
+                                有道桌面词典显示，”flex”一词中文有“收缩”之意。不过，从此属性实际上产生的效果来看，无论怎样用“收缩”一词解释都显得很牵强。
+                            </p>
+                            <blockquote class="style3">有道桌面词典显示，”flex”一词中文有“收缩”之意。不过，从此属性实际上产生的效果来看，无论怎样用“收缩”一词解释都显得很牵强。 有道桌面词典显示，”flex”一词中文有“收缩”之意。不过，从此属性实际上产生的效果来看，无论怎样用“收缩”一词解释都显得很牵强。
 
-                    <!--Comment form-->
-                    <div id="commentForm">
-                        <h1>/ 回复我</h1>
-                        <form class="commentForm" method="post" action="#" />
-                        <input type="text" name="nameComment" id="nameComment" placeholder="你叫啥" class="required" />
-                        <input type="email" name="emailComment" id="emailComment" placeholder="E-mail" class="required" />
-                        <input type="text" name="websiteComment" id="websiteComment" placeholder="你网址是啥" />
-                        <textarea name="message" id="messageComment" cols="45" rows="10" placeholder="你的信息是啥" class="required"></textarea>
-                        <input type="submit" name="submitComment" id="submitComment" value="Submit" />
-                        </form>
-                    </div>
-                    <!--End comment form-->
-                </section>
-                <!-- End blog forms-->
+                            </blockquote>
+                            <!--Comments holder -->
+                            <section class="comments-holder">
+                                <h1>/ 评论</h1>
+                                <!-- Comments -->
+                                <ul class="comments clearfix">
+                                    <li>
+                                        <div class="comment">
+                                            <div class="img">
+                                                <img width="50" height="50" src="images/small-img.jpg" alt="">
+                                            </div>
+                                            <div class="reply-btn">
+                                                <a href="#replyForm" class="replyDisplay">回复</a>
+                                            </div>
+                                            <div class="commentContent">
+                                                <p>
+                                                    <a href="" class="author">吕国营</a>
+                                                    <br/>
+                                                    <span class="date">2018-2-22</span>
+                                                </p>
+                                                <p>毕竟属于CSS3的东西，目前而言，仅Firefox/Chrome/Safari浏览器支持弹性盒子模型（IE9不详，Opera尚未），且使用的时候，需要附带私有前缀。就是诸如-moz-,
+                                                    -webkit-之类。</p>
+                                            </div>
+                                        </div>
+                                        <ul class="replys">
+                                            <li>
+                                                <div class="comment">
+                                                    <div class="img">
+                                                        <img width="50" height="50" src="images/small-img.jpg" alt="">
+                                                    </div>
+                                                    <div class="reply-btn">
+                                                        <a href="#replyForm" class="replyDisplay">回复</a>
+                                                    </div>
+                                                    <div class="commentContent">
+                                                        <p>
+                                                            <a href="#" class="author">吕国营</a>
+                                                            <br/>
+                                                            <span class="date">2018-2-22</span>
+                                                        </p>
+                                                        <p>毕竟属于CSS3的东西，目前而言，仅Firefox/Chrome/Safari浏览器支持弹性盒子模型（IE9不详，Opera尚未），且使用的时候，需要附带私有前缀。就是诸如-moz-,
+                                                            -webkit-之类。</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!-- End comments -->
+                                <div class="post-comment">
+                                    <a href="#commentForm" class="commentDisplay">提交评论</a>
+                                </div>
+                            </section>
+                        </div>
+                        <!-- End comments holder -->
+                    </section>
+                    <!-- End blog post -->
 
-            </article>
-            <!-- End blog Tab -->
+                    <!-- Blog post -->
+                    <section class="blogPost">
+                        <h1>你如何理解Html标签语义化的含义？</h1>
+                        <figure class="imgInfo">
+                            <img src="images/postImage2.jpg" alt="">
+                            <ul class="blogInfo">
+                                <li class="whois">用户名</li>
+                                <li class="cat">设计者</li>
+                                <li class="date">2018-3-27</li>
+                                <li class="comment">99浏览</li>
+                            </ul>
+                        </figure>
+                        <p>
+                            但是随着 Web 规模的不断扩大，信息量之大已经不在人肉处理的范围之内了。这个时候人们开始用机器来处理 Web 上发布的各种内容，搜索引擎就诞生了。
+                            <span class="highlighted-3">再后来，人们又设计了各种智能程序来对索引好的内容作各种处理和挖掘。
+                            </span>
+                            所以让机器能够更好地读懂 Web 上发布的各种内容就变得越来越重要。
+                        </p>
+                        <blockquote class="style2">
+                            对于当前的 Web 而言，HTML 是联系大多数 Web 资源的纽带，也是内容的载体。在 Web 被刚刚设计出来的时候，Tim Berners-Lee 可能不会想到它现在会达到的规模以及深入到我们生活的那么多方面。也许起初的想法很简单：用来发布
+                            Web 内容和资源的索引，方便人们查看。
+                        </blockquote>
+                        <p>其实 HTML 在刚开始设计出来的时候就是带有一定的「语义」的，包括段落、表格、图片、标题等等，但这些更多地只是方便浏览器等 UA 对它们作合适的处理。</p>
+                        <a href="#" class="btnMore">+ 继续阅读</a>
+
+                        <!-- Read more -->
+                        <div class="read-more">
+                            <p class="highlight-1">
+                                我们应该在发布内容的时候，就用机器可读的、被广泛认可的语义信息来描述内容，来降低机器处理 Web 内容的难度（HTML 本身就已经是朝这个方向迈出的一小步了）。
+                            </p>
+                            <blockquote class="style3">
+                                HTML 规范其实一直在往语义化的方向上努力，许多元素、属性在设计的时候，就已经考虑了如何让各种用户代理甚至网络爬虫更好地理解 HTML 文档。
+                            </blockquote>
+
+                            <!-- Comments holder -->
+                            <section class="comments-holder">
+                                <h1>/ 评论</h1>
+                                <!-- Comments -->
+                                <ul class="comments clearfix">
+                                    <li>
+                                        <div class="comment">
+                                            <div class="img">
+                                                <img width="50" height="50" alt="" src="images/small-img.jpg" />
+                                            </div>
+                                            <div class="reply-btn">
+                                                <a class="replyDisplay" href="#replyForm">回复</a>
+                                            </div>
+                                            <div class="commentContent">
+                                                <p>
+                                                    <a href="#" class="author">吕国营</a>
+                                                    <br />
+                                                    <span class="date">2018-2-23</span>
+                                                </p>
+                                                <p>HTML5 并非 Web 语义唯一倚仗的规范，除了 W3C 和 WHATWG 外，还有其它的组织在为扩展、标准化 Web 语义做着贡献。只要有浏览器厂商、搜索引擎原意支持，它们的规范一样可以成为通用的基础设施</p>
+                                            </div>
+
+                                        </div>
+                                        <ul class="replys">
+                                            <li>
+                                                <div class="comment">
+                                                    <div class="img">
+                                                        <img width="50" height="50" alt="" src="images/small-img.jpg" />
+                                                    </div>
+                                                    <div class="reply-btn">
+                                                        <a class="replyDisplay" href="#replyForm">回复</a>
+                                                    </div>
+                                                    <div class="commentContent">
+                                                        <p>
+                                                            <a href="#" class="author">吕国营</a>
+                                                            <br />
+                                                            <span class="date">2018-3-27</span>
+                                                        </p>
+                                                        <p>语义网是让机器可以理解数据。语义网技术，它包括一套描述语言和推理逻辑。它包通过一些格式对本体（Ontology）进行描述。</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!-- End comments-->
+                                <div class="post-comment">
+                                    <a href="#commentForm" class="commentDisplay">提交评论</a>
+                                </div>
+                            </section>
+                        </div>
+                        <!-- End comments holder -->
+                    </section>
+                    <!-- End blog post -->
+
+                    <!-- Blog post -->
+                    <section class="blogPost">
+                        <h1>在Css中存在盒模型，你是如何理解弹性盒模型，标准/怪异盒模型的？</h1>
+                        <img src="images/postImage2.jpg" alt="">
+                        <div class="info">
+                            <ul class="blogInfo-no-image">
+                                <li class="whois">用户名</li>
+                                <li class="cat">设计者</li>
+                                <li class="date">2018-2-5</li>
+                                <li class="comment">99评论</li>
+                            </ul>
+                        </div>
+                        <p>元素框的最内部分是实际的内容，直接包围内容的是内边距。内边距呈现了元素的背景。
+                            <span class="highlighted-3">背景应用于由内容和内边距、边框组成的区域。</span> 内边距的边缘是边框。边框以外是外边距，外边距默认是透明的，因此不会遮挡其后的任何元素。</p>
+                        <blockquote class="style2">虽然有方法解决这个问题。但是目前最好的解决方案是回避这个问题。也就是，不要给元素添加具有指定宽度的内边距，而是尝试将内边距或外边距添加到元素的父元素和子元素</blockquote>
+                        <p>一旦为页面设置了恰当的 DTD，大多数浏览器都会按照上面的图示来呈现内容。然而 IE 5 和 6 的呈现却是不正确的。根据 W3C 的规范，元素内容占据的空间是由 width 属性设置的，而内容周围的
+                            padding 和 border 值是另外计算的。不幸的是，IE5.X 和 6 在怪异模式中使用自己的非标准模型。这些浏览器的 width 属性不是内容的宽度，而是内容、内边距和边框的宽度的总和。</p>
+                        <a class="btnMore" href="#">+ Continue reading</a>
+                        <!-- Read more-->
+                        <div class="read-more">
+                            <p class="highlight-1">前面提到过，可以为元素的内边距设置百分数值。百分数值是相对于其父元素的 width 计算的，这一点与外边距一样。所以，如果父元素的 width 改变，它们也会改变。</p>
+                            <blockquote class="style3">在 HTML 中，我们使用表格来创建文本周围的边框，但是通过使用 CSS 边框属性，我们可以创建出效果出色的边框，并且可以应用于任何元素。</blockquote>
+                            <!-- Comments holder -->
+                            <section class="comments-holder">
+                                <h1>/ 评论</h1>
+                                <!-- Comments-->
+                                <ul class="comments clearfix">
+                                    <li>
+                                        <div class="comment">
+                                            <div class="img">
+                                                <img width="50" height="50" alt="" src="images/small-img.jpg" />
+                                            </div>
+                                            <div class="reply-btn">
+                                                <a class="replyDisplay" href="#replyForm">回复</a>
+                                            </div>
+                                            <div class="commentContent">
+                                                <p>
+                                                    <a href="#" class="author">John Smith</a>
+                                                    <br />
+                                                    <span class="date">Juin 20, 2012</span>
+                                                </p>
+                                                <p>CSS 规范指出，边框绘制在“元素的背景之上”。这很重要，因为有些边框是“间断的”（例如，点线边框或虚线框），元素的背景应当出现在边框的可见部分之间。</p>
+                                            </div>
+                                        </div>
+                                        <ul class="replys">
+                                            <li>
+                                                <div class="comment">
+                                                    <div class="img">
+                                                        <img width="50" height="50" alt="" src="images/small-img.jpg" />
+                                                    </div>
+                                                    <div class="reply-btn">
+                                                        <a class="replyDisplay" href="#replyForm">回复</a>
+                                                    </div>
+                                                    <div class="commentContent">
+                                                        <p>
+                                                            <a href="#" class="author">John Smith</a>
+                                                            <br />
+                                                            <span class="date">2018-2-22</span>
+                                                        </p>
+                                                        <p>CSS2 指出背景只延伸到内边距，而不是边框。后来 CSS2.1 进行了更正：元素的背景是内容、内边距和边框区的背景。大多数浏览器都遵循
+                                                            CSS2.1 定义，不过一些较老的浏览器可能会有不同的表现。</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!-- End comments-->
+                                <div class="post-comment">
+                                    <a class="commentDisplay" href="#commentForm">提交评论</a>
+                                </div>
+                            </section>
+                        </div>
+                        <!-- End comments holder -->
+                    </section>
+                    <!-- End blog post -->
+
+                    <!-- Pagination -->
+                    <section id="pagination" class="clearfix">
+                        <ul>
+                            <li>
+                                <a href="#" class="selected">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                        </ul>
+
+                        <div id="np">
+                            <div id="prev">
+                                <a href="#">&larr; 上一页</a>
+                            </div>
+                            <div id="next">
+                                <a href="#">下一页 &rarr;</a>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End pagination -->
+
+                    <!-- Blog forms-->
+                    <section class="blogForm">
+                        <!--Reply form-->
+                        <div id="replyForm">
+                            <h1>/ 回复给作者</h1>
+                            <form class="replyForm" method="post" action="#" />
+                            <input type="text" name="nameReply" id="nameReply" placeholder="你的名字" class="required" />
+                            <input type="email" name="emailReply" id="emailReply" placeholder="你的邮箱" class="required" />
+                            <input type="text" name="websiteReply" id="websiteReply" placeholder="你的网址" />
+                            <textarea name="messageReply" id="messageReply" cols="45" rows="10" placeholder="你的信息" class="required"></textarea>
+                            <input type="submit" name="submitReply" id="submitReply" value="Submit" />
+                            </form>
+                        </div>
+                        <!--End reply form-->
+
+                        <!--Comment form-->
+                        <div id="commentForm">
+                            <h1>/ 回复我</h1>
+                            <form class="commentForm" method="post" action="#" />
+                            <input type="text" name="nameComment" id="nameComment" placeholder="你叫啥" class="required" />
+                            <input type="email" name="emailComment" id="emailComment" placeholder="E-mail" class="required" />
+                            <input type="text" name="websiteComment" id="websiteComment" placeholder="你网址是啥" />
+                            <textarea name="message" id="messageComment" cols="45" rows="10" placeholder="你的信息是啥" class="required"></textarea>
+                            <input type="submit" name="submitComment" id="submitComment" value="Submit" />
+                            </form>
+                        </div>
+                        <!--End comment form-->
+                    </section>
+                    <!-- End blog forms-->
+
+                </article>
+                <!-- End blog Tab -->
 
 
-        </div>
-        <!-- End Inner -->
-    </section>
-    <!-- End taps Container -->
-    <!-- Page Footer -->
-    <footer id="pageFooter">
-        <p>Timer © 2018. Make by lvguoying. Collect from <a href="http://www.cssmoban.com/" target="_blank" style="color:#ccc;" title="模板之家">我的简历</a></p>
-        <ul id="socials">
+            </div>
+            <!-- End Inner -->
+        </section>
+        <!-- End taps Container -->
+        <!-- Page Footer -->
+        <footer id="pageFooter">
+            <p>Timer © 2018. Make by lvguoying. Collect from
+                <a href="http://www.cssmoban.com/" target="_blank" style="color:#ccc;"
+                    title="模板之家">我的简历</a>
+            </p>
+            <ul id="socials">
 
-            <li class="fb"><a href="#"><div>&nbsp;</div></a></li>
-            <li class="tw"><a href="#"><div>&nbsp;</div></a></li>
-            <li class="li"><a href="#"><div>&nbsp;</div></a></li>
-            <li class="vm"><a href="#"><div>&nbsp;</div></a></li>
-        </ul>
+                <li class="fb">
+                    <a href="#">
+                        <div>&nbsp;</div>
+                    </a>
+                </li>
+                <li class="tw">
+                    <a href="#">
+                        <div>&nbsp;</div>
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="#">
+                        <div>&nbsp;</div>
+                    </a>
+                </li>
+                <li class="vm">
+                    <a href="#">
+                        <div>&nbsp;</div>
+                    </a>
+                </li>
+            </ul>
 
-    </footer>
-    <!-- End Page Footer -->
-    <!--End Tabs Container -->
+        </footer>
+        <!-- End Page Footer -->
+        <!--End Tabs Container -->
 
 
-</div>
-<!-- End Page Wrapper-->
+    </div>
+    <!-- End Page Wrapper-->
 
 
 
 </body>
+
 </html>
