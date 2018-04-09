@@ -2,7 +2,7 @@
 (function ($) {
     "use strict";
 
-    var mapLoaded = false,
+    var mapLoaded = true,
         map;
     /*---------------Google Maps Scripts-------------------------*/
     function initMap() {
