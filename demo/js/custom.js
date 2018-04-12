@@ -2,157 +2,26 @@
 (function ($) {
     "use strict";
 
-    var mapLoaded = true,
+    var mapLoaded = false,
         map;
     /*---------------Google Maps Scripts-------------------------*/
     function initMap() {
-        var mapStyle = [
-            {
-                "featureType": "administrative",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "saturation": "-100"
-                    }
-                ]
-            },
-            {
-                "featureType": "administrative.province",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    }
-                ]
-            },
-            {
-                "featureType": "landscape",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "saturation": -100
-                    },
-                    {
-                        "lightness": 65
-                    },
-                    {
-                        "visibility": "on"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "saturation": -100
-                    },
-                    {
-                        "lightness": "50"
-                    },
-                    {
-                        "visibility": "simplified"
-                    }
-                ]
-            },
-            {
-                "featureType": "road",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "saturation": "-100"
-                    }
-                ]
-            },
-            {
-                "featureType": "road.highway",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "simplified"
-                    }
-                ]
-            },
-            {
-                "featureType": "road.arterial",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "lightness": "30"
-                    }
-                ]
-            },
-            {
-                "featureType": "road.local",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "lightness": "40"
-                    }
-                ]
-            },
-            {
-                "featureType": "transit",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "saturation": -100
-                    },
-                    {
-                        "visibility": "simplified"
-                    }
-                ]
-            },
-            {
-                "featureType": "transit.station.airport",
-                "elementType": "labels",
-                "stylers": [
-                    {
-                        "saturation": "-16"
-                    }
-                ]
-            },
-            {
-                "featureType": "water",
-                "elementType": "geometry",
-                "stylers": [
-                    {
-                        "hue": "#ffff00"
-                    },
-                    {
-                        "lightness": -25
-                    },
-                    {
-                        "saturation": -97
-                    }
-                ]
-            },
-            {
-                "featureType": "water",
-                "elementType": "labels",
-                "stylers": [
-                    {
-                        "lightness": -25
-                    },
-                    {
-                        "saturation": -100
-                    }
-                ]
-            }
-        ];
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: { lat: 23.822724694190565, lng: 88.7800669670105 },
+        var mapStyle = [];
+        map = new AMap.Map(document.getElementById('map'), {
+            resizeEnable: true,
+
+            center: { lat: 116.397428, lng: 39.90923 },
             // center: myCenter, 23.830262191202287 88.76633405685425
             zoom: 11,
-            maptype: 'roadmap',
-            styles: mapStyle
+
         });
-        google.maps.event.addListener(map, 'click', function (e) {
+        AMap.event.addListener(map, 'click', function (e) {
             console.log(e.latLng.lat(), e.latLng.lng())
             document.getElementById('latlongclicked').value = e.latLng.lat()
             document.getElementById('lotlongclicked').value = e.latLng.lng()
         });
     }
+
 
     function showPage(bt, pagename) {
         var btn = $(bt),
@@ -208,7 +77,7 @@
                     easing: TWEEN.Easing.Sinusoidal.In
                 }, function () { // callback when tween is finished  
                     if (pagename == "contact" && !mapLoaded) { //loads Maps
-                        initMap();
+                        // initMap();
                         mapLoaded = true;
                     }
                 });
@@ -708,4 +577,7 @@
         });
 
     });
-}(jQuery));    
+}(jQuery));
+
+
+
